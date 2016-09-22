@@ -1,0 +1,28 @@
+{
+  "name": "socket-io-chat",
+  "version": "1.0.0",
+  "description": "A chat room app made with socket-io",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DominicSerranoC14/Socket-io-Chat.git"
+  },
+  "keywords": [
+    "Socket.io",
+    "Node.js",
+    "Express",
+    "Real-time"
+  ],
+  "author": "Dominic Serrano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DominicSerranoC14/Socket-io-Chat/issues"
+  },
+  "homepage": "https://github.com/DominicSerranoC14/Socket-io-Chat#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
