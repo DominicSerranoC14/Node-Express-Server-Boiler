@@ -1,2 +1,2 @@
-# Socket-io-Chat
-A chat room app made with Socket.io, Node.js and Express
+# Node Js Server Boiler Plate
+A simple Nodejs server boiler plate repository made with Express and Pug.js.
