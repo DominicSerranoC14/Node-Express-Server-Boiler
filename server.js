@@ -3,14 +3,16 @@
 const express = require('express');
 const app = express();
 const routes = require('./routes/');
+const bodyParser = require('body-parser');
+const port = process.env.PORT || 3000;
 /////////////////////////////////////////
 
 
 /////////////////////////////////////////
 //Middle ware
-app.set('views', 'templates');
 app.set('view engine', 'pug');
 app.use(express.static('public'));
+app.use(bodyParser.urlencoded({extended: false}));
 /////////////////////////////////////////
 
 
@@ -21,5 +23,5 @@ app.use(routes);
 
 
 /////////////////////////////////////////
-app.listen(3000, () => console.log("Listening on port 3000"));
+app.listen(port, () => console.log(`Listening on port ${port}`));
 /////////////////////////////////////////
