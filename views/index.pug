@@ -2,6 +2,10 @@ extends layout.pug
 
 block content
   .chatroom-div
-    form(action='')
-      input#message-input(type='text' name='message-input')
+
+    if msg
+      h1 #{msg}
+
+    form(method='POST')
+      input#test(type='text' name='test')
       button(type='submit') Send
