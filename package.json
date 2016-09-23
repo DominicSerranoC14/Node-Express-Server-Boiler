@@ -1,7 +1,7 @@
 {
-  "name": "socket-io-chat",
+  "name": "boiler-node-server",
   "version": "1.0.0",
-  "description": "A chat room app made with socket-io",
+  "description": "A boiler plate node server app",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,15 +11,13 @@
     "url": "git+https://github.com/DominicSerranoC14/Socket-io-Chat.git"
   },
   "keywords": [
-    "Socket.io",
     "Node.js",
     "Express",
-    "Real-time"
   ],
-  "author": "Dominic Serrano",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DominicSerranoC14/Socket-io-Chat/issues"
+    "url": ""
   },
   "homepage": "https://github.com/DominicSerranoC14/Socket-io-Chat#readme",
   "dependencies": {
