@@ -8,21 +8,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DominicSerranoC14/Socket-io-Chat.git"
+    "url": ""
   },
   "keywords": [
     "Node.js",
-    "Express",
+    "Express"
   ],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": ""
   },
-  "homepage": "https://github.com/DominicSerranoC14/Socket-io-Chat#readme",
+  "homepage": "",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
+    "mongoose": "^4.6.1",
     "pug": "^2.0.0-beta6"
   }
 }
